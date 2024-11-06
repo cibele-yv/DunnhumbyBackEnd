@@ -4,8 +4,8 @@ This is a C# Web API project built with **ASP.NET Core** that exposes **GET** an
 
 ## Features
 
-- **GET `/api/products`**: Fetches a list of all products in the system.
-- **POST `/api/products`**: Adds a new product to the system.
+- **GET `/products`**: Retrieve a list of all products in the system.
+- **POST `/products`**: Add a new product object to the database.
 
 ## Getting Started
 
@@ -16,3 +16,8 @@ To run this project locally, you need the following:
 - **.NET SDK** (.NET 8).
 - **Visual Studio** or **VS Code** with the **C# extension** installed.
 
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/cibele-yv/DunnhumbyBackEnd.git
+   cd DunnhumbyBackEnd
