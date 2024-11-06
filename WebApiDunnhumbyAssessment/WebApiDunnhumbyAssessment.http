@@ -1,0 +1,6 @@
+@WebApiDunnhumbyAssessment_HostAddress = http://localhost:5231
+
+GET {{WebApiDunnhumbyAssessment_HostAddress}}/products/
+Accept: application/json
+
+###
